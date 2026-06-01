@@ -18,7 +18,7 @@ This project demonstrates a production-style modern data warehouse built on the 
 |---|---|
 | Total Records Processed | 14,163,328+ |
 | Data Format | Parquet |
-| Time Period | Jan 2023 – Apr 2023 |
+| Time Period | Jan 2026 – Apr 2026 |
 | Cloud Platform | AWS S3 + Snowflake |
 | Visualization | Power BI |
 
