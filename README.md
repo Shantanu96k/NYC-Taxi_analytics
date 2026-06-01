@@ -1,4 +1,4 @@
-# 🚖 NYC Taxi Analytics — Cloud Data Warehouse & Dashboard
+# NYC Taxi Analytics — Cloud Data Warehouse & Dashboard
 
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-Storage-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-29B5E8?style=flat&logo=snowflake&logoColor=white)
@@ -10,7 +10,7 @@ An end-to-end cloud analytics pipeline that ingests, transforms, models, and vis
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 This project demonstrates a production-style modern data warehouse built on the cloud. It follows a **RAW → STAGING → ANALYTICS** layered architecture to deliver clean, reliable data to business intelligence dashboards.
 
@@ -24,7 +24,7 @@ This project demonstrates a production-style modern data warehouse built on the 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 NYC Taxi Parquet Files
@@ -50,7 +50,7 @@ FACT & DIMENSION Tables
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category | Technology |
 |---|---|
@@ -63,7 +63,7 @@ FACT & DIMENSION Tables
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Source:** [NYC Open Data – Yellow Taxi Trip Records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
@@ -77,7 +77,7 @@ FACT & DIMENSION Tables
 
 ---
 
-## ⚙️ Data Pipeline
+## Data Pipeline
 
 ### Step 1 — Data Ingestion
 - Downloaded NYC Taxi Parquet files from NYC Open Data
@@ -103,7 +103,7 @@ Applied the following transformations:
 
 ---
 
-## 📊 Data Modeling
+## Data Modeling
 
 ### Star Schema Design
 
@@ -138,7 +138,7 @@ Contains: Location ID, Borough, Zone, Service Zone
 
 ---
 
-## 📈 Business KPIs
+## Business KPIs
 
 ### Executive KPIs
 - Total Revenue
@@ -160,7 +160,7 @@ Contains: Location ID, Borough, Zone, Service Zone
 
 ---
 
-## 🔎 Advanced SQL Analysis
+## Advanced SQL Analysis
 
 ### Aggregation & Grouping
 ```sql
@@ -192,7 +192,7 @@ FROM monthly_revenue;
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 ### Executive Dashboard
 - Total Revenue, Total Trips, Average Fare (KPI Cards)
@@ -210,7 +210,7 @@ FROM monthly_revenue;
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 NYC-Taxi-Analytics/
@@ -232,7 +232,7 @@ NYC-Taxi-Analytics/
 
 ---
 
-## 🚀 Key Learnings
+## Key Learnings
 
 - Designing a multi-layer data warehouse (RAW → STAGING → ANALYTICS)
 - Setting up Snowflake External Stages with AWS S3
@@ -244,7 +244,7 @@ NYC-Taxi-Analytics/
 
 
 
-## 👨‍💻 Author
+## Author
 
 **Shantanu Sawant**
 Data Analyst 
@@ -253,7 +253,3 @@ Data Analyst
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/Shantanu96k)
 
 **Skills:** SQL · Snowflake · AWS S3 · Power BI · Python · Data Analytics
-
----
-
-> ⭐ If you found this project useful, please consider giving it a star!
