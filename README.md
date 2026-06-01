@@ -36,16 +36,16 @@ NYC Taxi Parquet Files
 Snowflake External Stage
         │
         ▼
-     RAW Layer          ← Source data preserved as-is
+     RAW Layer          
         │
         ▼
-  STAGING Layer         ← Cleansed, transformed, enriched
+  STAGING Layer         
         │
         ▼
-FACT & DIMENSION Tables ← Star schema for analytics
+FACT & DIMENSION Tables 
         │
         ▼
-  Power BI Dashboard    ← Business KPIs & visual insights
+  Power BI Dashboard   
 ```
 
 ---
@@ -68,10 +68,10 @@ FACT & DIMENSION Tables ← Star schema for analytics
 **Source:** [NYC Open Data – Yellow Taxi Trip Records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 **Files Used:**
-- `yellow_tripdata_2023-01.parquet`
-- `yellow_tripdata_2023-02.parquet`
-- `yellow_tripdata_2023-03.parquet`
-- `yellow_tripdata_2023-04.parquet`
+- `yellow_tripdata_2026-01.parquet`
+- `yellow_tripdata_2026-02.parquet`
+- `yellow_tripdata_2026-03.parquet`
+- `yellow_tripdata_2026-04.parquet`
 
 **Total Records:** 14,163,328+
 
